@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@keyframes animacao{
+    0%{width:0px;}
+    50%{width:90px;}
+    100%{width: 165px;}
+}
 
 *{
     padding: 0px;
@@ -33,6 +38,7 @@ form.card_cadastro{
     height: 2px;
     background-color: red;
     margin-bottom: 10px;
+    animation: animacao 2s infinite;
 }
 .card_cadastro > label{
     margin: 10px 0;
